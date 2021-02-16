@@ -1,0 +1,584 @@
+{
+ "nodes": {
+  "node-red": {
+   "name": "node-red",
+   "version": "1.1.3",
+   "local": false,
+   "nodes": {
+    "inject": {
+     "name": "inject",
+     "types": [
+      "inject"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/common/20-inject.js"
+    },
+    "debug": {
+     "name": "debug",
+     "types": [
+      "debug"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/common/21-debug.js"
+    },
+    "complete": {
+     "name": "complete",
+     "types": [
+      "complete"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/common/24-complete.js"
+    },
+    "catch": {
+     "name": "catch",
+     "types": [
+      "catch"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/common/25-catch.js"
+    },
+    "status": {
+     "name": "status",
+     "types": [
+      "status"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/common/25-status.js"
+    },
+    "link": {
+     "name": "link",
+     "types": [
+      "link in",
+      "link out"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/common/60-link.js"
+    },
+    "comment": {
+     "name": "comment",
+     "types": [
+      "comment"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/common/90-comment.js"
+    },
+    "unknown": {
+     "name": "unknown",
+     "types": [
+      "unknown"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/common/98-unknown.js"
+    },
+    "function": {
+     "name": "function",
+     "types": [
+      "function"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/function/10-function.js"
+    },
+    "switch": {
+     "name": "switch",
+     "types": [
+      "switch"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/function/10-switch.js"
+    },
+    "change": {
+     "name": "change",
+     "types": [
+      "change"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/function/15-change.js"
+    },
+    "range": {
+     "name": "range",
+     "types": [
+      "range"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/function/16-range.js"
+    },
+    "template": {
+     "name": "template",
+     "types": [
+      "template"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/function/80-template.js"
+    },
+    "delay": {
+     "name": "delay",
+     "types": [
+      "delay"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/function/89-delay.js"
+    },
+    "trigger": {
+     "name": "trigger",
+     "types": [
+      "trigger"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/function/89-trigger.js"
+    },
+    "exec": {
+     "name": "exec",
+     "types": [
+      "exec"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/function/90-exec.js"
+    },
+    "tls": {
+     "name": "tls",
+     "types": [
+      "tls-config"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/network/05-tls.js"
+    },
+    "httpproxy": {
+     "name": "httpproxy",
+     "types": [
+      "http proxy"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/network/06-httpproxy.js"
+    },
+    "mqtt": {
+     "name": "mqtt",
+     "types": [
+      "mqtt in",
+      "mqtt out",
+      "mqtt-broker"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/network/10-mqtt.js"
+    },
+    "httpin": {
+     "name": "httpin",
+     "types": [
+      "http in",
+      "http response"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/network/21-httpin.js"
+    },
+    "httprequest": {
+     "name": "httprequest",
+     "types": [
+      "http request"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/network/21-httprequest.js"
+    },
+    "websocket": {
+     "name": "websocket",
+     "types": [
+      "websocket in",
+      "websocket out",
+      "websocket-listener",
+      "websocket-client"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/network/22-websocket.js"
+    },
+    "tcpin": {
+     "name": "tcpin",
+     "types": [
+      "tcp in",
+      "tcp out",
+      "tcp request"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/network/31-tcpin.js"
+    },
+    "udp": {
+     "name": "udp",
+     "types": [
+      "udp in",
+      "udp out"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/network/32-udp.js"
+    },
+    "CSV": {
+     "name": "CSV",
+     "types": [
+      "csv"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/parsers/70-CSV.js"
+    },
+    "HTML": {
+     "name": "HTML",
+     "types": [
+      "html"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/parsers/70-HTML.js"
+    },
+    "JSON": {
+     "name": "JSON",
+     "types": [
+      "json"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/parsers/70-JSON.js"
+    },
+    "XML": {
+     "name": "XML",
+     "types": [
+      "xml"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/parsers/70-XML.js"
+    },
+    "YAML": {
+     "name": "YAML",
+     "types": [
+      "yaml"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/parsers/70-YAML.js"
+    },
+    "split": {
+     "name": "split",
+     "types": [
+      "split",
+      "join"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/sequence/17-split.js"
+    },
+    "sort": {
+     "name": "sort",
+     "types": [
+      "sort"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/sequence/18-sort.js"
+    },
+    "batch": {
+     "name": "batch",
+     "types": [
+      "batch"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/sequence/19-batch.js"
+    },
+    "file": {
+     "name": "file",
+     "types": [
+      "file",
+      "file in"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/storage/10-file.js"
+    },
+    "watch": {
+     "name": "watch",
+     "types": [
+      "watch"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red",
+     "file": "/usr/local/lib/node_modules/node-red/node_modules/@node-red/nodes/core/storage/23-watch.js"
+    }
+   }
+  },
+  "node-red-contrib-google-stt": {
+   "name": "node-red-contrib-google-stt",
+   "version": "0.0.4",
+   "local": true,
+   "nodes": {
+    "google-speech-text": {
+     "name": "google-speech-text",
+     "types": [
+      "google-speech-text"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-stt",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-google-stt/nodes/google-speech-text.js"
+    },
+    "google-service-account": {
+     "name": "google-service-account",
+     "types": [
+      "google-service-account"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-stt",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-google-stt/nodes/google-service-account.js"
+    },
+    "google-api-key": {
+     "name": "google-api-key",
+     "types": [
+      "google-api-key"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-google-stt",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-google-stt/nodes/google-api-key.js"
+    }
+   }
+  },
+  "node-red-node-base64": {
+   "name": "node-red-node-base64",
+   "version": "0.2.1",
+   "local": true,
+   "nodes": {
+    "base64": {
+     "name": "base64",
+     "types": [
+      "base64"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-base64",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-node-base64/70-base64.js"
+    }
+   }
+  },
+  "node-red-node-rbe": {
+   "name": "node-red-node-rbe",
+   "version": "0.2.9",
+   "local": true,
+   "nodes": {
+    "rbe": {
+     "name": "rbe",
+     "types": [
+      "rbe"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-rbe",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-node-rbe/rbe.js"
+    }
+   }
+  },
+  "node-red-node-tail": {
+   "name": "node-red-node-tail",
+   "version": "0.1.1",
+   "local": true,
+   "nodes": {
+    "tail": {
+     "name": "tail",
+     "types": [
+      "tail"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-tail",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-node-tail/28-tail.js"
+    }
+   }
+  },
+  "node-red-contrib-browser-utils": {
+   "name": "node-red-contrib-browser-utils",
+   "version": "0.0.9",
+   "local": true,
+   "nodes": {
+    "fileinject": {
+     "name": "fileinject",
+     "types": [
+      "fileinject"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-browser-utils",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-browser-utils/fileinject/fileinject.js"
+    },
+    "microphone": {
+     "name": "microphone",
+     "types": [
+      "microphone"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-browser-utils",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-browser-utils/microphone/microphone.js"
+    },
+    "camera": {
+     "name": "camera",
+     "types": [
+      "camera"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-browser-utils",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-browser-utils/camera/camera.js"
+    }
+   }
+  },
+  "node-red-contrib-media-utils": {
+   "name": "node-red-contrib-media-utils",
+   "version": "0.0.8",
+   "local": true,
+   "nodes": {
+    "ffmpeg-conversion": {
+     "name": "ffmpeg-conversion",
+     "types": [
+      "ffmpeg-conversion"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-media-utils",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-media-utils/ffmpeg-conversion/ffmpeg-conversion.js"
+    },
+    "ffmpeg-silence-detect": {
+     "name": "ffmpeg-silence-detect",
+     "types": [
+      "ffmpeg-silence-detect"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-media-utils",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-media-utils/ffmpeg-silence-detect/ffmpeg-silence-detect.js"
+    },
+    "ffmpeg-segment": {
+     "name": "ffmpeg-segment",
+     "types": [
+      "ffmpeg-segment"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-media-utils",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-media-utils/ffmpeg-segment/ffmpeg-segment.js"
+    },
+    "unzip": {
+     "name": "unzip",
+     "types": [
+      "unzip"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-media-utils",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-media-utils/unzip/unzip.js"
+    }
+   }
+  },
+  "node-red-contrib-play-audio": {
+   "name": "node-red-contrib-play-audio",
+   "version": "2.5.0",
+   "local": true,
+   "nodes": {
+    "play-audio": {
+     "name": "play-audio",
+     "types": [
+      "play audio"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-play-audio",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/node-red-contrib-play-audio/play-audio.js"
+    }
+   }
+  },
+  "@ambucher/node-red-contrib-send-form": {
+   "name": "@ambucher/node-red-contrib-send-form",
+   "version": "0.3.22",
+   "local": true,
+   "nodes": {
+    "http-send-multipart-form": {
+     "name": "http-send-multipart-form",
+     "types": [
+      "http-send-multipart-form"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "@ambucher/node-red-contrib-send-form",
+     "file": "/Users/taraskalynii/Desktop/pdp_development/node_modules/@ambucher/node-red-contrib-send-form/http-send-multipart-form.js"
+    }
+   }
+  }
+ },
+ "_credentialSecret": "74d51bd46395e36ff9534036445581eebb30405b596ed636c4febdcad8010b92",
+ "users": {
+  "_": {
+   "editor": {
+    "view": {
+     "view-show-grid": true,
+     "view-snap-grid": true,
+     "view-grid-size": 20,
+     "view-node-status": true,
+     "view-node-show-label": true,
+     "view-show-tips": true
+    }
+   }
+  }
+ }
+}
